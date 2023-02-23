@@ -1,0 +1,3 @@
+C:\Users\Public\CMake\bin\cmake.exe -E rm -f CMakeFiles\cpplib.dir/objects.a
+C:\Users\Public\cpp\mingw\bin\ar.exe qc CMakeFiles\cpplib.dir/objects.a @CMakeFiles\cpplib.dir\objects1
+C:\Users\Public\cpp\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cpplib.dir/objects.a -Wl,--no-whole-archive -o cpplib.exe -Wl,--out-implib,libcpplib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cpplib.dir\linkLibs.rsp

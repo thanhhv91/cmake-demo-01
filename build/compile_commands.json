@@ -1,7 +1,12 @@
 [
 {
   "directory": "D:/Study/source/repos/cmake-demo-01/build",
-  "command": "C:\\Users\\Public\\cpp\\mingw\\bin\\g++.exe   -g -o CMakeFiles\\CMakeStaterCpp.dir\\main.cpp.obj -c D:\\Study\\source\\repos\\cmake-demo-01\\main.cpp",
+  "command": "C:\\Users\\Public\\cpp\\mingw\\bin\\g++.exe  @CMakeFiles/cpplib.dir/includes_CXX.rsp -g -o CMakeFiles\\cpplib.dir\\main.obj -c D:\\Study\\source\\repos\\cmake-demo-01\\main.cpp",
   "file": "D:/Study/source/repos/cmake-demo-01/main.cpp"
+},
+{
+  "directory": "D:/Study/source/repos/cmake-demo-01/build",
+  "command": "C:\\Users\\Public\\cpp\\mingw\\bin\\g++.exe  @CMakeFiles/cpplib.dir/includes_CXX.rsp -g -o CMakeFiles\\cpplib.dir\\src\\cpplib.obj -c D:\\Study\\source\\repos\\cmake-demo-01\\src\\cpplib.cpp",
+  "file": "D:/Study/source/repos/cmake-demo-01/src/cpplib.cpp"
 }
 ]
