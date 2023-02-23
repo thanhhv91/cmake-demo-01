@@ -1,5 +1,12 @@
-#include <iostream>
+#include<iostream>
+#include<vector>
 
-int main(int, char**) {
-    std::cout << "Hello, world!\n";
+#include "include\cpplib.h"
+
+int main (int argc, const char *argv[]) {
+    CPPLib my_lib;
+    auto greeting = my_lib.GetGreetingMessage();
+
+    std::cout << greeting << std::endl;
+    return 0;
 }
