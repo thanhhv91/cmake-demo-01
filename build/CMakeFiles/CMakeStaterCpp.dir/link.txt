@@ -1,0 +1,3 @@
+C:\Users\Public\CMake\bin\cmake.exe -E rm -f CMakeFiles\CMakeStaterCpp.dir/objects.a
+C:\Users\Public\cpp\mingw\bin\ar.exe qc CMakeFiles\CMakeStaterCpp.dir/objects.a @CMakeFiles\CMakeStaterCpp.dir\objects1
+C:\Users\Public\cpp\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CMakeStaterCpp.dir/objects.a -Wl,--no-whole-archive -o CMakeStaterCpp.exe -Wl,--out-implib,libCMakeStaterCpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CMakeStaterCpp.dir\linkLibs.rsp
